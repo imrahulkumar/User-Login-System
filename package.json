@@ -1,9 +1,9 @@
 {
-  "name": "Login_System",
+  "name": "nodeauth",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.3.0",
