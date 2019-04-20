@@ -1,4 +1,11 @@
 {
     "version": 2,
-    "builds": [{ "src": "package.json", "use": "@now/node" }]
+    "builds": [{ "src": "package.json", "use": "@now/node" },
+        { "src": "app.js", "use": "@now/node" },
+        { "src": "views", "use": "@now/node" },
+        { "src": "uploads", "use": "@now/node" },
+        { "src": "routes", "use": "@now/node" },
+        { "src": "public", "use": "@now/node" },
+        { "src": "models", "use": "@now/node" }
+    ]
   }
